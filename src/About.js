@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './About.css';
 import aboutImage from './img/aboutImage.png'
-import myResume from './file/SagnikKundu_Resume_20241014.pdf';
+import myResume from './file/SagnikKundu_Resume_20241015.pdf';
 
 const About = () => {
   const [currentAdjective, setCurrentAdjective] = useState(0);

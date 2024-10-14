@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
+import myResume from './file/SagnikKundu_Resume_20241015.pdf';
 import cursorImage from './img/cursor.png';
-import myResume from './file/SagnikKundu_Resume_20241014.pdf';
 
 
 const Home = () => {
