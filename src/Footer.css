@@ -1,0 +1,137 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  height: 100vh;
+  background: url('./img/footer.png')
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 20rem;
+}
+
+.main-text {
+  top: 50%;
+  transform: translateY(50%);
+}
+
+h1 {
+  font-size: 4rem;
+  color: #000;
+  padding-top: 5rem;
+}
+
+.together {
+  color: #ff6600;
+  font-family: 'Tan Nimbus';
+  margin-left: 1rem;
+  font-size: 3rem;
+}
+
+.contact-me{
+  font-family: 'Inter Light';
+}
+
+.email {
+  font-family: 'Inter Bold';
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-content .creator {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: thin;
+}
+
+.footer-content .name {
+  font-weight: bold;
+}
+
+.footer-content .copyright {
+  text-align: right;
+  font-size: 1rem;
+}
+
+.go-to-top {
+  text-decoration: none;
+  color: #333;
+}
+
+.go-to-top img {
+  height: 20px;
+  width: 20px;
+}
+
+.go-to-top {
+  font-size: 1rem;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;  /* Adjust padding for smaller screens */
+  }
+
+  .footer-content {
+    scale: 1;
+    flex-direction: row;  /* Change to column for smaller screens */
+    align-items: center;
+    gap: 2rem;
+  }
+
+    .footer h1 {
+    font-size: 1rem;
+  }
+
+  .creator, .copyright, .go-to-top {
+    margin-bottom: 1.5rem;  /* Add space between items */
+    text-align: center;
+  }
+
+  .go-to-top {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+    padding: 2rem 1rem;  /* Adjust padding for smaller screens */
+  }
+
+  .footer-content {
+    scale: 1;
+    flex-direction: row;  /* Change to column for smaller screens */
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .creator, .copyright, .go-to-top {
+    margin-bottom: 1.5rem;  /* Add space between items */
+    text-align: center;
+  }
+
+  .go-to-top {
+    display: none;
+  }
+}

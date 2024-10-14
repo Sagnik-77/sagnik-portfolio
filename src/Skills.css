@@ -1,0 +1,144 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  align-items: center;
+  height: 100vh;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skills-list{
+  width: 60%;
+  align-items: center;
+}
+
+.tools-list{
+  width: 40%;
+  align-items: center;
+}
+
+.skills-list ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tools-list ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.whitebttn{
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 1rem 2rem;
+  border: 2px solid #000000;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.whitebttn:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  transition: background-color 0.3s ease;
+}
+
+.blackbttn{
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 1rem 2rem;
+  border: 2px solid #000000;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.blackbttn:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+.tools-header{
+    margin-top: 4rem;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablets */
+@media screen and (max-width: 768px) {  .section {
+    padding: 0 0.5rem; /* Further reduce padding on mobile */
+  }
+
+
+  .section h2 {
+    font-size: 1.5rem; /* Adjust heading size */
+    margin-bottom: 1rem; /* Adjust margin */
+  }
+
+  .skills-list, .tools-list {
+    width: 100%; /* Increase width for smaller devices */
+  }
+
+  .skills-list ul, .tools-list ul {
+    margin-right: 1rem;
+    gap: 1rem; /* Maintain gap between items */
+    flex-wrap: wrap; /* Allow items to wrap while keeping pairs */
+    justify-content: center; /* Center align items */
+  }
+
+  .skills-list ul li, .tools-list ul li {
+    flex: 0 1 calc(50% - 1rem); /* Allow items to take up to half width minus gap */
+    max-width: calc(50% - 1rem); /* Ensure max width for items */
+  }
+
+  .whitebttn, .blackbttn {
+    padding: 0.8rem 1.5rem; /* Adjust button padding */
+    font-size: 0.9rem; /* Smaller font size */
+  }
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 480px) {
+  .section {
+    height: 130vh;
+  }
+  .section h2 {
+    font-size: 1.2rem; /* Smaller heading for mobile */
+  }
+
+  .skills-list, .tools-list {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .skills-list ul, .tools-list ul {
+    margin-right: 2rem;
+    flex-wrap: wrap; /* Allow wrapping while keeping pairs */
+    justify-content: center; /* Center align items */
+  }
+
+
+  .skills-list ul li, .tools-list ul li {
+    flex: 0 1 calc(50% - 1rem); /* Keep pairs in a column */
+    max-width: calc(50% - 1rem); /* Ensure max width for items */
+  }
+
+  .whitebttn, .blackbttn {
+    padding: 0.6rem 1rem; /* Further adjust button padding */
+    font-size: 0.8rem; /* Smaller font size for mobile */
+  }
+}

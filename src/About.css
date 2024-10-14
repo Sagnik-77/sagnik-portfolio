@@ -1,0 +1,129 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #ffffff;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.about-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 2rem;
+}
+
+.about-content {
+  max-width: 450px;
+  text-align: left;
+}
+
+.about-description {
+  font-size: 1rem;
+  color: #303030;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.cv-button, .collaboration-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button {
+  background-color: black;
+  color: white;
+  margin-right: 1rem;
+}
+
+.cv-button:hover {
+  background-color: #333;
+}
+
+.rotatingText {
+  padding: 0 0;
+  color: #FF6600;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+}
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .about-section {
+    height: 70vh;
+  }
+
+  .about-container {
+    flex-direction: column; /* Switch to column layout on smaller screens */
+    width: 90%; /* Adjust width for smaller devices */
+  }
+
+
+  .about-content {
+    scale: 0.9;
+  }
+
+  .rotatingText {
+    font-size: 36px; /* Reduce font size for smaller screens */
+  }
+
+  .cv-button, .collaboration-button {
+    font-size: 0.8rem; /* Adjust button size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-section {
+    height: 70vh;
+  }
+
+  .about-container {
+    flex-direction: column; /* Ensure column layout for very small screens */
+    align-items: center; /* Center items in the column layout */
+    width: 95%; /* Slightly wider for small devices */
+  }
+
+  .about-image img {
+    width: 150px; /* Smaller image for very small screens */
+    height: 150px; /* Keep aspect ratio */
+  }
+
+  .about-content {
+    max-width: 100%; /* Allow content to take full width */
+  }
+
+  .rotatingText {
+    padding: 0 0;
+    font-size: 28px; /* Further reduce font size for mobile */
+  }
+
+  .cv-button, .collaboration-button {
+    padding: 0.5rem 1rem; /* Adjust button padding for small screens */
+    font-size: 0.75rem; /* Adjust button font size */
+  }
+}
