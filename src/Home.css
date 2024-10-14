@@ -188,6 +188,7 @@ p {
   .home-container {
     height: 100vh;
   }
+
   header {
     width: 80%; /* Full width for mobile */
     flex-direction: row; /* Stack elements vertically */
@@ -223,7 +224,7 @@ p {
 
   .cursor-animation {
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 60%;
   margin-top: 2rem;
   width: 100px;
