@@ -80,10 +80,11 @@
 /* Media Queries for Responsive Design */
 
 /* Tablets */
-@media screen and (max-width: 768px) {  .section {
+@media screen and (max-width: 768px) {  
+  .section {
+    height: 150vh;
     padding: 0 0.5rem; /* Further reduce padding on mobile */
   }
-
 
   .section h2 {
     font-size: 1.5rem; /* Adjust heading size */
@@ -115,7 +116,7 @@
 /* Mobile Phones */
 @media screen and (max-width: 480px) {
   .section {
-    height: 130vh;
+    height: 150vh;
   }
   .section h2 {
     font-size: 1.2rem; /* Smaller heading for mobile */
