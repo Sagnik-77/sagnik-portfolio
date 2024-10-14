@@ -66,8 +66,33 @@ h1 {
 
 .matters {
   color: #ff6600;
+  background: linear-gradient(to right, #fd6e27 0, #defabd 10%, #FF6600 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
   font-family: 'Tan Nimbus';
   font-weight: 500;
+}
+
+@keyframes shine{
+  0%{
+    background-position: 0;
+  }
+  20%{
+    background-position: 100px;
+  }
+  60%{
+    background-position: 200px;
+  }
+  80%{
+    background-position: 300px;
+  }
+  100%{
+    background-position: 400px;
+  }
 }
 
 p {
@@ -198,7 +223,7 @@ p {
 
   .cursor-animation {
   position: absolute;
-  top: 55%;
+  top: 70%;
   left: 60%;
   margin-top: 2rem;
   width: 100px;
