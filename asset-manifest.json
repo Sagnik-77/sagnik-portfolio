@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sagnik-portfolio/static/css/main.0d578c10.css",
-    "main.js": "/sagnik-portfolio/static/js/main.c307d100.js",
+    "main.js": "/sagnik-portfolio/static/js/main.769c731c.js",
     "static/js/453.420acfe6.chunk.js": "/sagnik-portfolio/static/js/453.420acfe6.chunk.js",
     "static/media/aboutImage.png": "/sagnik-portfolio/static/media/aboutImage.9b5038391151053a477b.png",
     "static/media/Inter_24pt-SemiBold.ttf": "/sagnik-portfolio/static/media/Inter_24pt-SemiBold.8e921d98d20d6ae79fff.ttf",
@@ -9,15 +9,15 @@
     "static/media/Inter_24pt-Thin.ttf": "/sagnik-portfolio/static/media/Inter_24pt-Thin.d361eeabc34e78eddc47.ttf",
     "static/media/cursor.png": "/sagnik-portfolio/static/media/cursor.5809594d6479a63f1529.png",
     "static/media/TAN-NIMBUS.otf": "/sagnik-portfolio/static/media/TAN-NIMBUS.dc9b46aa9580a3f22cef.otf",
-    "static/media/SagnikKundu_Resume_20241015.pdf": "/sagnik-portfolio/static/media/SagnikKundu_Resume_20241015.d94ff541a1eb2fdc93c4.pdf",
+    "static/media/SagnikKundu_Resume_20241015.pdf": "/sagnik-portfolio/static/media/SagnikKundu_Resume_20241015.4ca6fba48245e9f73e5b.pdf",
     "static/media/footer.png": "/sagnik-portfolio/static/media/footer.0e0c37d26dc5d3557741.png",
     "index.html": "/sagnik-portfolio/index.html",
     "main.0d578c10.css.map": "/sagnik-portfolio/static/css/main.0d578c10.css.map",
-    "main.c307d100.js.map": "/sagnik-portfolio/static/js/main.c307d100.js.map",
+    "main.769c731c.js.map": "/sagnik-portfolio/static/js/main.769c731c.js.map",
     "453.420acfe6.chunk.js.map": "/sagnik-portfolio/static/js/453.420acfe6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d578c10.css",
-    "static/js/main.c307d100.js"
+    "static/js/main.769c731c.js"
   ]
 }
