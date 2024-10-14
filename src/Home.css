@@ -66,7 +66,7 @@ h1 {
 
 .matters {
   color: #ff6600;
-  background: linear-gradient(to right, #fd6e27 0, #defabd 10%, #FF6600 20%);
+  background: linear-gradient(to right, #fd6e27 0, #ffae77 10%, #FF6600 20%);
   background-position: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
